@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lince.monsalve.com.co/sitemap.xml

@@ -3,24 +3,334 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lince — Lectura rápida y foco</title>
-<meta name="description" content="Lince: lee una palabra a la vez, a tu ritmo. Hecha en español, sin anuncios.">
+<title>Lince: lectura rápida y foco, una palabra a la vez</title>
+<meta name="description" content="Lince es una app para Android que muestra una palabra a la vez para leer con foco. Mide tu velocidad en 1 minuto, lee 50 clásicos, tus EPUB y PDF o artículos. Sin anuncios ni rastreo.">
+<link rel="canonical" href="https://lince.monsalve.com.co/">
+<link rel="alternate" hreflang="es" href="https://lince.monsalve.com.co/">
+<link rel="alternate" hreflang="en" href="https://lince.monsalve.com.co/en/">
+<link rel="alternate" hreflang="x-default" href="https://lince.monsalve.com.co/en/">
+<link rel="icon" href="/img/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="/img/icono-180.png">
+<meta name="theme-color" content="#FDF6E3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#151515" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Lince">
+<meta property="og:locale" content="es_LA">
+<meta property="og:title" content="Lince: lectura rápida y foco">
+<meta property="og:description" content="Una palabra a la vez, siempre en el mismo lugar. Lee más y distráete menos. Sin anuncios.">
+<meta property="og:url" content="https://lince.monsalve.com.co/">
+<meta property="og:image" content="https://lince.monsalve.com.co/prensa/img/grafico-es.png">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="/estilo.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "Lince: Lectura rápida y foco",
+  "operatingSystem": "Android",
+  "applicationCategory": "BookApplication",
+  "inLanguage": ["es", "en"],
+  "description": "App de lectura RSVP: muestra una palabra a la vez para leer con foco. Incluye prueba de velocidad, 50 clásicos, importación de EPUB, PDF y TXT, metas y racha.",
+  "url": "https://lince.monsalve.com.co/",
+  "downloadUrl": "https://play.google.com/store/apps/details?id=co.com.monsalve.lince",
+  "image": "https://lince.monsalve.com.co/prensa/img/icono-512.png",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+}
+</script>
 </head>
 <body>
-<main>
-  <header><a href="/" class="logo">L<span>i</span>nce</a></header>
-  <h1>Lectura rápida y foco, una palabra a la vez</h1>
-  <p>Lince es una app para Android que te ayuda a leer con más concentración: muestra una palabra a la vez, con la
-  letra clave siempre en el mismo lugar, para que tus ojos no tengan que moverse.</p>
-  <p class="caja">Muy pronto en Google Play.</p>
-  <h2>In English</h2>
-  <p>Lince is an Android app that helps you read with more focus: it shows one word at a time, with the key letter
-  always in the same spot, so your eyes don't have to move. No ads, no tracking. Coming soon to Google Play.</p>
-  <footer>
-    <a href="/privacidad/">Política de privacidad</a> · <a href="/borrar-cuenta/">Borrar mi cuenta</a> ·
-    <a href="/prensa/">Prensa / Press</a> · <a href="/en/privacy/">Privacy policy</a> · <a href="/en/delete-account/">Delete my account</a>
+<main class="sitio">
+  <header class="barra">
+    <a href="/" class="logo">L<span>i</span>nce</a>
+    <nav>
+      <a href="#como" class="secundario">Cómo funciona</a>
+      <a href="#planes" class="secundario">Planes</a>
+      <a href="#preguntas" class="secundario">Preguntas</a>
+      <a href="/en/" hreflang="en" lang="en">English</a>
+    </nav>
+  </header>
+
+  <div class="portada">
+    <div>
+      <h1>Lee más. <em>Distráete menos.</em></h1>
+      <p class="bajada">Lince te muestra una palabra a la vez, siempre en el mismo lugar. Tus ojos no saltan por la
+      página y tu mente se queda en la lectura.</p>
+      <div class="botones">
+        <a class="boton" href="https://play.google.com/store/apps/details?id=co.com.monsalve.lince">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 2.6v18.8c0 .5.5.8 1 .6l15.6-9.4c.4-.3.4-.9 0-1.2L5 2c-.5-.2-1 .1-1 .6z"/></svg>
+          Descárgala en Google Play
+        </a>
+        <a class="boton secundario" href="#prueba">Pruébala aquí</a>
+      </div>
+      <ul class="marcas">
+        <li>Gratis</li><li>Sin anuncios</li><li>Sin rastreo</li><li>Funciona sin internet</li>
+      </ul>
+    </div>
+    <div class="telefono">
+      <video autoplay muted loop playsinline poster="/img/demo-poster.jpg" aria-label="Lince leyendo un texto una palabra a la vez">
+        <source src="/img/demo.webm" type="video/webm">
+        <source src="/img/demo.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+
+  <section id="prueba">
+    <h2>Pruébala ahora, aquí mismo</h2>
+    <p class="intro">Toca «Leer» y mira solo la letra roja. No muevas los ojos: las palabras llegan a ti. Así se lee
+    en Lince.</p>
+    <div class="demo" data-demo data-texto="Leer así se siente raro durante los primeros segundos. Después, casi sin darte cuenta, dejas de mover los ojos y las palabras empiezan a llegar solas. La letra roja siempre queda en el mismo lugar, así que tu vista no tiene que buscar dónde empieza cada palabra. Fíjate también en las pausas: Lince se detiene un poco más en las comas, un poco más en los puntos y todavía más al terminar un párrafo, para que la idea alcance a quedarse. Si algo se te escapa, tocas la pantalla, ves el párrafo completo y sigues desde donde quieras. Prueba a subir la velocidad con la barra. ¿Hasta dónde puedes llegar sin perder el hilo?">
+      <div class="demo-zona" aria-live="off"><span class="demo-texto"><span class="pre"></span><span class="piv"></span><span class="suf"></span></span></div>
+      <div class="demo-controles">
+        <button type="button" data-leer="▶ Leer" data-pausa="❚❚ Pausa" data-otra="↺ Otra vez">▶ Leer</button>
+        <label>Velocidad <input type="range" min="150" max="600" step="10" value="300" aria-label="Palabras por minuto"> <span><span class="demo-ppm">300</span> ppm</span></label>
+      </div>
+      <p class="demo-pista">En la app puedes ir de 150 a 1.000 palabras por minuto y elegir qué tan largas son las pausas.</p>
+    </div>
+  </section>
+
+  <section id="como">
+    <h2>Cómo funciona</h2>
+    <p class="intro">Cuando lees de la forma normal, tus ojos dan pequeños saltos por la línea, vuelven atrás y se
+    pierden en la página. Lince hace ese trabajo por ti: te entrega cada palabra justo donde ya estás mirando.</p>
+    <div class="pasos">
+      <div class="paso">
+        <h3>Mide tu velocidad</h3>
+        <p>Lee un texto corto durante 1 minuto y responde 3 preguntas. Lince te dice a cuántas palabras por minuto lees
+        y te sugiere con qué velocidad empezar.</p>
+      </div>
+      <div class="paso">
+        <h3>Elige qué leer</h3>
+        <p>Un clásico de regalo, un libro tuyo, un artículo que encontraste o cualquier texto que copiaste.</p>
+      </div>
+      <div class="paso">
+        <h3>Lee y sube a tu ritmo</h3>
+        <p>Toca para leer y toca para pausar. Después de leer, una pregunta corta revisa si entendiste: Lince solo te
+        sugiere ir más rápido cuando de verdad lo estás entendiendo.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="bloque">
+    <div class="texto">
+      <h2>Una palabra a la vez, sin perderte nada</h2>
+      <p>La letra guía, en rojo, queda siempre en el mismo punto. Lince hace pausas naturales en comas, puntos y
+      finales de párrafo, y te deja cambiar la velocidad sin detenerte.</p>
+      <ul>
+        <li><strong>Al pausar ves el párrafo completo</strong> y puedes tocar cualquier palabra para seguir desde ahí.</li>
+        <li><strong>Ir a…</strong> capítulos, páginas reales del PDF o una frase que recuerdes.</li>
+        <li><strong>Retoma siempre donde quedaste</strong>, en cada libro.</li>
+      </ul>
+    </div>
+    <div class="capturas">
+      <img src="/img/es-leyendo.webp" alt="Lince leyendo: una sola palabra con la letra guía en rojo" width="540" height="1200" loading="lazy">
+      <img src="/img/es-pausa.webp" alt="Lince en pausa: la palabra, el párrafo completo y los controles" width="540" height="1200" loading="lazy">
+    </div>
+  </section>
+
+  <section>
+    <h2>Lee lo que quieras</h2>
+    <p class="intro">No dependes de una tienda de libros. Lince lee lo que ya tienes y lo que encuentras.</p>
+    <div class="tarjetas">
+      <div class="tarjeta"><span class="icono">📚</span><h3>50 clásicos de regalo</h3>
+        <p>25 en español y 25 en inglés: Don Quijote, Poe, Quiroga, Sherlock Holmes, La isla del tesoro y más.</p></div>
+      <div class="tarjeta"><span class="icono">📄</span><h3>Tus libros</h3>
+        <p>Importa archivos .epub, .pdf y .txt. Los capítulos salen del índice del libro y el PDF conserva sus páginas.</p></div>
+      <div class="tarjeta"><span class="icono">🌐</span><h3>Artículos de internet</h3>
+        <p>Desde el navegador, toca Compartir → Lince y el artículo queda listo para leer, sin menús ni publicidad.</p></div>
+      <div class="tarjeta"><span class="icono">📋</span><h3>Cualquier texto</h3>
+        <p>Copia un apunte, un correo largo o un informe y toca «Pegar» en el inicio.</p></div>
+      <div class="tarjeta"><span class="icono">🗂️</span><h3>Tu biblioteca en línea</h3>
+        <p>Conecta catálogos OPDS (Calibre-Web, Kavita y otros) para buscar y bajar tus libros directo a la app.</p></div>
+      <div class="tarjeta"><span class="icono">🌎</span><h3>Practica otro idioma</h3>
+        <p>La app está en español e inglés, y puedes leer los clásicos en cualquiera de los dos.</p></div>
+    </div>
+  </section>
+
+  <section class="bloque inverso">
+    <div class="texto">
+      <h2>Un hábito que se queda</h2>
+      <p>Leer un poco todos los días cambia más que leer mucho una vez. Lince te ayuda a sostenerlo sin presionarte.</p>
+      <ul>
+        <li>Meta diaria en minutos y racha de días seguidos.</li>
+        <li>Un protector por semana: un mal día no borra tu racha.</li>
+        <li>Puntos, niveles y más de 40 insignias.</li>
+        <li>Resumen semanal para compartir.</li>
+        <li>Un recordatorio que no aparece si ya cumpliste tu meta.</li>
+      </ul>
+    </div>
+    <div class="capturas">
+      <img src="/img/es-inicio.webp" alt="Inicio de Lince: racha, nivel, meta del día y tu semana" width="540" height="1200" loading="lazy">
+      <img src="/img/es-biblioteca.webp" alt="Biblioteca clásica de Lince" width="540" height="1200" loading="lazy">
+    </div>
+  </section>
+
+  <section class="bloque">
+    <div class="texto">
+      <h2>Pensada para mentes que se distraen</h2>
+      <p>Si te cuesta concentrarte, si lees una página y no recuerdas nada, o si leer en pantalla te cansa, Lince se
+      adapta a ti.</p>
+      <ul>
+        <li>Letras pensadas para leer mejor: <strong>Lexend</strong>, <strong>Atkinson Hyperlegible</strong> y
+        <strong>OpenDyslexic</strong>.</li>
+        <li>6 temas: Enfoque (crema), Claro, Sepia, Gris oscuro, Noche (negro puro) y Alto contraste.</li>
+        <li>Letra más grande cuando la necesitas, y el color de la letra guía a tu gusto.</li>
+        <li>Si tu teléfono usa modo oscuro, Lince también.</li>
+      </ul>
+    </div>
+    <div class="capturas">
+      <img src="/img/es-letra-grande.webp" alt="Lince con letra grande" width="540" height="1200" loading="lazy">
+      <img src="/img/es-capitulos.webp" alt="Ir a: capítulos, página o frase" width="540" height="1200" loading="lazy">
+    </div>
+  </section>
+
+  <section>
+    <h2>También acostado y en tablet</h2>
+    <p class="intro">Gira el teléfono para leer con la palabra más grande, o usa Lince en tu tablet con todo a la vista.</p>
+    <div class="ancha"><img src="/img/es-acostado-leyendo.webp" alt="Lince en el teléfono acostado: la palabra se ve más grande" width="1200" height="540" loading="lazy"></div>
+  </section>
+
+  <section class="bloque inverso">
+    <div class="texto">
+      <h2>Rápido, pero entendiendo</h2>
+      <p>Leer rápido no sirve de nada si no entiendes. Por eso Lince no te empuja a ir más rápido: lo mide.</p>
+      <ul>
+        <li>La prueba de velocidad combina palabras por minuto con preguntas de comprensión, en 5 textos distintos.</li>
+        <li>Si vas rápido pero entiendes poco, Lince te lo dice con honestidad y te sugiere bajar.</li>
+        <li>Después de cada sesión, «¿Cuánto entendiste?» ajusta tu velocidad recomendada.</li>
+      </ul>
+    </div>
+    <div class="capturas una">
+      <img src="/img/es-prueba.webp" alt="Resultado de la prueba de velocidad: 233 ppm, 3 de 3 correctas" width="540" height="1200" loading="lazy">
+    </div>
+  </section>
+
+  <section>
+    <h2>Lo que dicen los estudios (sin exagerar)</h2>
+    <p class="intro">Este método se llama RSVP (presentación visual rápida en serie) y se estudia desde hace décadas.</p>
+    <div class="tarjetas">
+      <div class="tarjeta"><h3>Ayuda al foco</h3>
+        <p>Al mostrar una sola palabra, no hay nada más que mirar: desaparecen los saltos de línea y las vueltas atrás
+        involuntarias, y es más difícil que la mente se vaya.</p></div>
+      <div class="tarjeta"><h3>Tiene un límite</h3>
+        <p>La investigación muestra que, a velocidades muy altas, la comprensión baja. No hay atajo mágico: por eso
+        Lince mide cuánto entiendes y no promete «leer 3 veces más rápido».</p></div>
+      <div class="tarjeta"><h3>Funciona mejor así</h3>
+        <p>Con sesiones cortas, textos que te interesan y una velocidad cómoda que vas subiendo poco a poco.</p></div>
+    </div>
+    <p class="nota">Una revisión completa del tema: Rayner, Schotter, Masson, Potter y Treiman (2016), «So Much to Read,
+    So Little Time», <em>Psychological Science in the Public Interest</em>.</p>
+  </section>
+
+  <section>
+    <h2>Por qué existe Lince</h2>
+    <p class="intro">Hoy leemos más que nunca, pero entre notificaciones, pestañas y pantallas llenas de cosas, cuesta
+    terminar un capítulo. Lince nace para dar a la lectura un espacio limpio: una palabra, tu ritmo y nada más. Sin
+    anuncios que interrumpan, sin vender tus datos y con clásicos gratis para empezar hoy.</p>
+  </section>
+
+  <section id="planes">
+    <h2>Planes</h2>
+    <p class="intro">Puedes leer gratis todo el tiempo que quieras. Lince Plus quita los límites.</p>
+    <div class="planes">
+      <div class="plan">
+        <h3>Gratis</h3>
+        <p class="precio"><strong>US$0</strong></p>
+        <ul>
+          <li>El lector completo, todos los temas y letras</li>
+          <li>Prueba de velocidad, metas, racha e insignias</li>
+          <li>3 clásicos a la vez (terminas uno, eliges otro)</li>
+          <li>2 libros importados (archivos o bibliotecas OPDS)</li>
+          <li>Hasta 10 páginas al día de texto pegado o artículos de internet</li>
+        </ul>
+      </div>
+      <div class="plan destacado">
+        <h3>Lince Plus</h3>
+        <p class="precio"><strong>US$2,99</strong> al mes · US$19,99 al año · US$34,99 una sola vez</p>
+        <ul>
+          <li>Todo lo del plan gratis</li>
+          <li>Toda la Biblioteca clásica, sin esperar</li>
+          <li>Importaciones sin límite</li>
+          <li>Texto pegado y artículos sin tope diario</li>
+          <li>Inicio en negrita (resalta el comienzo de cada palabra)</li>
+        </ul>
+      </div>
+    </div>
+    <p class="nota">Los precios pueden variar según tu país; Google Play te muestra el precio final en tu moneda.</p>
+  </section>
+
+  <section>
+    <h2>Tu privacidad</h2>
+    <div class="tarjetas">
+      <div class="tarjeta"><span class="icono">🔒</span><h3>Lo que lees es tuyo</h3>
+        <p>Tus textos y tu avance se guardan en tu teléfono. No los subimos a internet.</p></div>
+      <div class="tarjeta"><span class="icono">🚫</span><h3>Sin anuncios ni rastreo</h3>
+        <p>No usamos publicidad ni herramientas de análisis o seguimiento.</p></div>
+      <div class="tarjeta"><span class="icono">👤</span><h3>Sin cuenta para leer</h3>
+        <p>Solo pedimos iniciar sesión con Google para importar archivos o comprar Plus.</p></div>
+    </div>
+    <p class="nota">Detalles en la <a href="/privacidad/">política de privacidad</a>.</p>
+  </section>
+
+  <section>
+    <h2>Mira cómo se ve</h2>
+    <div class="galeria-inicio">
+      <figure><img src="/img/es-leyendo.webp" alt="" width="540" height="1200" loading="lazy"><figcaption>Leyendo</figcaption></figure>
+      <figure><img src="/img/es-pausa.webp" alt="" width="540" height="1200" loading="lazy"><figcaption>En pausa</figcaption></figure>
+      <figure><img src="/img/es-capitulos.webp" alt="" width="540" height="1200" loading="lazy"><figcaption>Ir a un capítulo</figcaption></figure>
+      <figure><img src="/img/es-prueba.webp" alt="" width="540" height="1200" loading="lazy"><figcaption>Prueba de velocidad</figcaption></figure>
+      <figure><img src="/img/es-inicio.webp" alt="" width="540" height="1200" loading="lazy"><figcaption>Tu día y tu racha</figcaption></figure>
+      <figure><img src="/img/es-biblioteca.webp" alt="" width="540" height="1200" loading="lazy"><figcaption>Biblioteca clásica</figcaption></figure>
+      <figure><img src="/img/es-letra-grande.webp" alt="" width="540" height="1200" loading="lazy"><figcaption>Letra grande</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="preguntas">
+    <h2>Preguntas frecuentes</h2>
+    <details><summary>¿Lince es gratis?</summary>
+      <p>Sí. Puedes leer sin pagar y sin límite de tiempo. Lince Plus es opcional y quita los límites de clásicos,
+      importaciones y texto pegado.</p></details>
+    <details><summary>¿Voy a entender lo que leo?</summary>
+      <p>Esa es la idea. Empiezas a una velocidad cómoda y Lince revisa tu comprensión con preguntas cortas. Solo te
+      sugiere subir cuando estás entendiendo bien.</p></details>
+    <details><summary>¿Cansa leer así?</summary>
+      <p>Al principio se siente distinto. Las pausas en la puntuación ayudan, y puedes hacerlas más largas en Ajustes.
+      Recomendamos sesiones cortas, de 10 a 20 minutos.</p></details>
+    <details><summary>¿Me sirve si tengo TDAH o dislexia?</summary>
+      <p>Muchas personas que se distraen fácilmente encuentran más fácil concentrarse con una palabra a la vez, y
+      Lince incluye letras como OpenDyslexic. Pero no es un tratamiento médico: pruébala y quédate con lo que te sirva.</p></details>
+    <details><summary>¿Funciona sin internet?</summary>
+      <p>Sí. Los 50 clásicos vienen dentro de la app, y tus libros importados se guardan en el teléfono. Necesitas
+      internet solo para traer un artículo, usar una biblioteca en línea, iniciar sesión o comprar Plus.</p></details>
+    <details><summary>¿Qué formatos puedo leer?</summary>
+      <p>EPUB, PDF (con texto, no escaneados) y TXT, además de texto pegado, artículos web y catálogos OPDS.</p></details>
+    <details><summary>¿Hay versión para iPhone?</summary>
+      <p>Por ahora Lince está solo para Android.</p></details>
+    <details><summary>¿Cómo cancelo Lince Plus?</summary>
+      <p>Desde Google Play → tu perfil → Pagos y suscripciones → Suscripciones. El pago único no se renueva.</p></details>
+  </section>
+
+  <section class="cierre">
+    <h2>Tu próxima página te espera</h2>
+    <p class="intro" style="margin: 0 auto 24px;">Mide tu velocidad en 1 minuto y elige tus 3 clásicos de regalo.</p>
+    <div class="botones">
+      <a class="boton" href="https://play.google.com/store/apps/details?id=co.com.monsalve.lince">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 2.6v18.8c0 .5.5.8 1 .6l15.6-9.4c.4-.3.4-.9 0-1.2L5 2c-.5-.2-1 .1-1 .6z"/></svg>
+        Descárgala en Google Play
+      </a>
+    </div>
+  </section>
+
+  <footer class="pie">
+    <span>© 2026 Lince</span>
+    <nav>
+      <a href="/privacidad/">Privacidad</a>
+      <a href="/borrar-cuenta/">Borrar mi cuenta</a>
+      <a href="/prensa/">Prensa</a>
+      <a href="mailto:mateo.monsalve@gmail.com">Contacto</a>
+      <a href="/en/" hreflang="en" lang="en">English</a>
+    </nav>
   </footer>
 </main>
+<script src="/demo.js"></script>
 </body>
 </html>
