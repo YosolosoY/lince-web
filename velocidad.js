@@ -8,6 +8,7 @@
   var MAX_CREIBLE = 800, MIN = 150, MAX_SUGERIDA = 600;
   var ronda = Math.floor(Math.random() * pruebas.length);
   var prueba, palabras, inicio, ppm, pregunta, aciertos;
+  function medir(nombre) { if (window.linceEvento) window.linceEvento(nombre); }
 
   function el(tag, clase, texto) {
     var n = document.createElement(tag);
@@ -36,6 +37,7 @@
     prueba.passage.split(/\n+/).forEach(function (p) { texto.appendChild(el('p', '', p)); });
     pantalla(texto, boton(t.termine, terminar));
     inicio = Date.now();
+    medir('prueba_empezada');
   }
   function terminar() {
     ppm = Math.round(palabras / ((Date.now() - inicio) / 60000));
@@ -56,6 +58,7 @@
   }
   function resultado() {
     var otra = boton(t.otra, empezar, 'boton secundario');
+    medir('prueba_terminada');
     if (ppm > MAX_CREIBLE) {
       pantalla(el('h3', '', t.muyRapido), el('p', '', t.muyRapidoTexto.replace('{ppm}', ppm)), otra);
       return;
@@ -79,6 +82,7 @@
   // Compartir el número, sin imagen ni datos de la persona.
   function compartir(ev) {
     var texto = t.textoCompartir.replace('{ppm}', ppm);
+    medir('prueba_compartida');
     var url = location.origin + location.pathname;
     if (navigator.share) { navigator.share({ text: texto, url: url }).catch(function () {}); return; }
     var b = ev.currentTarget;
