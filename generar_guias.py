@@ -81,6 +81,7 @@ def pagina(p):
   </footer>
 </main>
 {p.get('script', '')}
+<script src="/analitica.js" defer></script>
 </body>
 </html>
 '''

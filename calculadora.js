@@ -16,6 +16,12 @@
     var m = Math.round(palabras / velocidad);
     return m >= 60 ? Math.floor(m / 60) + ' h ' + String(m % 60).padStart(2, '0') + ' min' : m + ' min';
   }
+  var usada = false;
+  function usar() {
+    actualizar();
+    if (!usada && window.linceEvento) window.linceEvento('calculadora_usada');
+    usada = true;
+  }
   function actualizar() {
     var v = Number(ppm.value);
     if (!(v >= 50 && v <= 1000)) return;
@@ -25,7 +31,7 @@
     var p = Number(paginas.value);
     resultado.textContent = p > 0 ? plantilla.replace('{t}', tiempo(p * 300, v)).replace('{p}', v) : '';
   }
-  ppm.addEventListener('input', actualizar);
-  paginas.addEventListener('input', actualizar);
+  ppm.addEventListener('input', usar);
+  paginas.addEventListener('input', usar);
   actualizar();
 })();
