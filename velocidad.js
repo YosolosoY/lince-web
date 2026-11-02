@@ -62,14 +62,27 @@
     }
     var hoja = [el('p', 'prueba-numero', String(ppm)), el('p', 'nota', t.unidad.replace('{c}', aciertos).replace('{t}', prueba.questions.length))];
     if (aciertos < 2) hoja.push(el('p', '', t.bajaComprension));
-    else hoja.push(el('p', '', t.sugerencia.replace('{ppm}', sugerida(ppm))));
+    else {
+      hoja.push(el('p', '', t.sugerencia.replace('{ppm}', sugerida(ppm))));
+      try { localStorage.setItem('lince_ppm', String(ppm)); } catch (e) {}
+    }
     var enlace = el('a', 'boton', t.descargar);
     enlace.href = datos.play;
     var botones = el('div', 'botones');
     botones.appendChild(enlace);
     botones.appendChild(otra);
+    if (aciertos >= 2) botones.appendChild(boton(t.compartir, compartir, 'boton secundario'));
     hoja.push(botones);
     pantalla.apply(null, hoja);
+  }
+
+  // Compartir el número, sin imagen ni datos de la persona.
+  function compartir(ev) {
+    var texto = t.textoCompartir.replace('{ppm}', ppm);
+    var url = location.origin + location.pathname;
+    if (navigator.share) { navigator.share({ text: texto, url: url }).catch(function () {}); return; }
+    var b = ev.currentTarget;
+    navigator.clipboard.writeText(texto + ' ' + url).then(function () { b.textContent = t.copiado; });
   }
 
   caja.querySelector('button').addEventListener('click', empezar);

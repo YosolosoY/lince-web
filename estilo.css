@@ -148,3 +148,12 @@ details p { color: var(--muted); margin: 10px 0 0; }
   background: var(--surface2); border-radius: 999px; padding: 6px 8px 6px 20px; box-shadow: 0 6px 20px rgba(0,0,0,.25); z-index: 10; }
 .aviso-idioma a { font-weight: 700; white-space: nowrap; }
 .aviso-idioma button { background: none; border: 0; color: var(--muted); font: inherit; cursor: pointer; min-width: 44px; min-height: 44px; }
+
+/* Calculadora de tiempo de lectura */
+.campo { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.campo input { font: inherit; width: 120px; padding: 8px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); color: var(--text); }
+.tabla-libros { width: 100%; border-collapse: collapse; font-size: 16px; }
+.tabla-libros th, .tabla-libros td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.tabla-libros td:nth-child(n+2), .tabla-libros th:nth-child(n+2) { white-space: nowrap; text-align: right; }
+.tabla-libros small { color: var(--muted); }
+.articulo ol, .articulo ul { padding-left: 22px; }

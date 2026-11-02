@@ -33,4 +33,20 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://lincereader.com/borrar-cuenta/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lincereader.com/en/delete-account/"/></url>
   <url><loc>https://lincereader.com/prensa/</loc><lastmod>2026-11-02</lastmod></url>
+  <url><loc>https://lincereader.com/how-long-to-read/</loc><lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lincereader.com/how-long-to-read/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lincereader.com/es/cuanto-tarda-leer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lincereader.com/how-long-to-read/"/></url>
+  <url><loc>https://lincereader.com/es/cuanto-tarda-leer/</loc><lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lincereader.com/how-long-to-read/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lincereader.com/es/cuanto-tarda-leer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lincereader.com/how-long-to-read/"/></url>
+  <url><loc>https://lincereader.com/what-is-rsvp-reading/</loc><lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lincereader.com/what-is-rsvp-reading/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lincereader.com/es/que-es-rsvp/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lincereader.com/what-is-rsvp-reading/"/></url>
+  <url><loc>https://lincereader.com/es/que-es-rsvp/</loc><lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lincereader.com/what-is-rsvp-reading/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lincereader.com/es/que-es-rsvp/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lincereader.com/what-is-rsvp-reading/"/></url>
 </urlset>
