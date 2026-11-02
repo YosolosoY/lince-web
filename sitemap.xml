@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url><loc>https://lince.monsalve.com.co/</loc><lastmod>2026-10-25</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://lince.monsalve.com.co/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://lince.monsalve.com.co/en/"/></url>
-  <url><loc>https://lince.monsalve.com.co/en/</loc><lastmod>2026-10-25</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://lince.monsalve.com.co/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://lince.monsalve.com.co/en/"/></url>
-  <url><loc>https://lince.monsalve.com.co/prensa/</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://lince.monsalve.com.co/privacidad/</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://lince.monsalve.com.co/en/privacy/</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://lince.monsalve.com.co/borrar-cuenta/</loc></url>
-  <url><loc>https://lince.monsalve.com.co/en/delete-account/</loc></url>
+  <url><loc>https://lincereader.com/</loc><lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lincereader.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lincereader.com/en/"/></url>
+  <url><loc>https://lincereader.com/en/</loc><lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lincereader.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lincereader.com/en/"/></url>
+  <url><loc>https://lincereader.com/prueba-velocidad-lectura/</loc><lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lincereader.com/prueba-velocidad-lectura/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lincereader.com/en/reading-speed-test/"/></url>
+  <url><loc>https://lincereader.com/en/reading-speed-test/</loc><lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lincereader.com/prueba-velocidad-lectura/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lincereader.com/en/reading-speed-test/"/></url>
+  <url><loc>https://lincereader.com/prensa/</loc><lastmod>2026-11-02</lastmod></url>
+  <url><loc>https://lincereader.com/privacidad/</loc><lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lincereader.com/privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lincereader.com/en/privacy/"/></url>
+  <url><loc>https://lincereader.com/en/privacy/</loc><lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lincereader.com/privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lincereader.com/en/privacy/"/></url>
+  <url><loc>https://lincereader.com/borrar-cuenta/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lincereader.com/borrar-cuenta/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lincereader.com/en/delete-account/"/></url>
+  <url><loc>https://lincereader.com/en/delete-account/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lincereader.com/borrar-cuenta/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lincereader.com/en/delete-account/"/></url>
 </urlset>

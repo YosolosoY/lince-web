@@ -1,3 +1,3 @@
 # lince-web
 
-Sitio de Lince: lince.monsalve.com.co (GitHub Pages).
+Sitio de Lince: lincereader.com (GitHub Pages).
