@@ -8,6 +8,10 @@
 <link rel="canonical" href="https://lincereader.com/es/">
 <link rel="alternate" hreflang="en" href="https://lincereader.com/">
 <link rel="alternate" hreflang="es" href="https://lincereader.com/es/">
+<link rel="alternate" hreflang="pt" href="https://lincereader.com/pt/">
+<link rel="alternate" hreflang="fr" href="https://lincereader.com/fr/">
+<link rel="alternate" hreflang="de" href="https://lincereader.com/de/">
+<link rel="alternate" hreflang="it" href="https://lincereader.com/it/">
 <link rel="alternate" hreflang="x-default" href="https://lincereader.com/">
 <link rel="icon" href="/img/favicon-32.png" sizes="32x32">
 <link rel="apple-touch-icon" href="/img/icono-180.png">
@@ -32,8 +36,8 @@
   "name": "Lince: Lectura rápida y foco",
   "operatingSystem": "Android",
   "applicationCategory": "BookApplication",
-  "inLanguage": ["es", "en"],
-  "description": "App de lectura RSVP: muestra una palabra a la vez para leer con foco. Incluye prueba de velocidad, 50 clásicos, importación de EPUB, PDF y TXT, metas y racha.",
+  "inLanguage": ["es", "en", "pt", "fr", "de", "it"],
+  "description": "App de lectura RSVP: muestra una palabra a la vez para leer con foco. Incluye prueba de velocidad, 150 clásicos en 6 idiomas, importación de EPUB, PDF y TXT, metas y racha.",
   "url": "https://lincereader.com/es/",
   "downloadUrl": "https://play.google.com/store/apps/details?id=co.com.monsalve.lince",
   "image": "https://lincereader.com/prensa/img/icono-512.png",
@@ -49,7 +53,7 @@
       <a href="#como" class="secundario">Cómo funciona</a>
       <a href="#planes" class="secundario">Planes</a>
       <a href="#preguntas" class="secundario">Preguntas</a>
-      <a href="/" hreflang="en" lang="en">English</a>
+      <details class="idiomas"><summary aria-label="Language">🌐 Español</summary><div><a href="/" hreflang="en" lang="en">English</a><a href="/pt/" hreflang="pt" lang="pt">Português</a><a href="/fr/" hreflang="fr" lang="fr">Français</a><a href="/de/" hreflang="de" lang="de">Deutsch</a><a href="/it/" hreflang="it" lang="it">Italiano</a></div></details>
     </nav>
   </header>
 
@@ -138,8 +142,8 @@
     <h2>Lee lo que quieras</h2>
     <p class="intro">No dependes de una tienda de libros. Lince lee lo que ya tienes y lo que encuentras.</p>
     <div class="tarjetas">
-      <div class="tarjeta"><span class="icono">📚</span><h3>50 clásicos incluidos</h3>
-        <p>25 en español y 25 en inglés: Don Quijote, Poe, Quiroga, Sherlock Holmes, La isla del tesoro y más.</p></div>
+      <div class="tarjeta"><span class="icono">📚</span><h3>150 clásicos incluidos</h3>
+        <p>25 en español y 125 en otros 5 idiomas: Don Quijote, Poe, Quiroga, Sherlock Holmes, La isla del tesoro y más.</p></div>
       <div class="tarjeta"><span class="icono">📄</span><h3>Tus libros</h3>
         <p>Importa archivos .epub, .pdf y .txt. Los capítulos salen del índice del libro y el PDF conserva sus páginas.</p></div>
       <div class="tarjeta"><span class="icono">🌐</span><h3>Artículos de internet</h3>
@@ -149,7 +153,7 @@
       <div class="tarjeta"><span class="icono">🗂️</span><h3>Tu biblioteca en línea</h3>
         <p>Conecta catálogos OPDS (Calibre-Web, Kavita y otros) para buscar y bajar tus libros directo a la app.</p></div>
       <div class="tarjeta"><span class="icono">🌎</span><h3>Practica otro idioma</h3>
-        <p>La app está en español e inglés, y puedes leer los clásicos en cualquiera de los dos.</p></div>
+        <p>La app está en español, inglés, portugués, francés, alemán e italiano, y puedes leer los clásicos en cualquiera de ellos.</p></div>
     </div>
   </section>
 
@@ -306,7 +310,7 @@
       <p>Muchas personas que se distraen fácilmente encuentran más fácil concentrarse con una palabra a la vez, y
       Lince incluye letras como OpenDyslexic. Pero no es un tratamiento médico: pruébala y quédate con lo que te sirva.</p></details>
     <details><summary>¿Funciona sin internet?</summary>
-      <p>Sí. Los 50 clásicos vienen dentro de la app, y tus libros importados se guardan en el teléfono. Necesitas
+      <p>Sí. Los 150 clásicos vienen dentro de la app, y tus libros importados se guardan en el teléfono. Necesitas
       internet solo para traer un artículo, usar una biblioteca en línea, iniciar sesión o comprar Plus.</p></details>
     <details><summary>¿Qué formatos puedo leer?</summary>
       <p>EPUB, PDF (con texto, no escaneados) y TXT, además de texto pegado, artículos web y catálogos OPDS.</p></details>
@@ -346,11 +350,12 @@
       <a href="/borrar-cuenta/">Borrar mi cuenta</a>
       <a href="/prensa/">Prensa</a>
       <a href="mailto:lince.revision@gmail.com">Contacto</a>
-      <a href="/" hreflang="en" lang="en">English</a>
     </nav>
+    <nav class="pie-idiomas"><a href="/" hreflang="en" lang="en">English</a> <a href="/pt/" hreflang="pt" lang="pt">Português</a> <a href="/fr/" hreflang="fr" lang="fr">Français</a> <a href="/de/" hreflang="de" lang="de">Deutsch</a> <a href="/it/" hreflang="it" lang="it">Italiano</a></nav>
   </footer>
 </main>
 <script src="/demo.js"></script>
+<script src="/idioma.js" defer></script>
 <script src="/analitica.js" defer></script>
 </body>
 </html>

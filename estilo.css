@@ -157,3 +157,14 @@ details p { color: var(--muted); margin: 10px 0 0; }
 .tabla-libros td:nth-child(n+2), .tabla-libros th:nth-child(n+2) { white-space: nowrap; text-align: right; }
 .tabla-libros small { color: var(--muted); }
 .articulo ol, .articulo ul { padding-left: 22px; }
+/* Selector de idioma de la barra (details/summary, sin JavaScript) */
+.idiomas { position: relative; font-size: 15px; }
+.idiomas summary { cursor: pointer; list-style: none; color: var(--muted); white-space: nowrap; }
+.idiomas summary::-webkit-details-marker { display: none; }
+.idiomas[open] summary { color: var(--text); }
+.idiomas div { position: absolute; right: 0; top: calc(100% + 8px); z-index: 10; display: flex; flex-direction: column; gap: 2px;
+  background: var(--surface, var(--bg)); border: 1px solid var(--line); border-radius: 12px; padding: 6px; min-width: 150px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .12); }
+.idiomas div a { padding: 8px 12px; border-radius: 8px; color: var(--text) !important; }
+.idiomas div a:hover { background: var(--line); }
+.pie-idiomas { flex-basis: 100%; font-size: 14px; }
