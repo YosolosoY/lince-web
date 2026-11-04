@@ -42,5 +42,5 @@ def menu_idiomas(pagina, actual):
     """Selector de idioma de la barra superior (sin JavaScript)."""
     r = RUTAS[pagina]
     enlaces = ''.join(f'<a href="{r[l]}" hreflang="{l}" lang="{l}">{NOMBRES[l]}</a>' for l in LANGS if l != actual)
-    return (f'<details class="idiomas"><summary aria-label="Language">🌐 {NOMBRES[actual]}</summary>'
+    return (f'<details class="idiomas"><summary>🌐 {NOMBRES[actual]}</summary>'
             f'<div>{enlaces}</div></details>')

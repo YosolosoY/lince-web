@@ -146,7 +146,7 @@ details p { color: var(--muted); margin: 10px 0 0; }
 /* Sugerencia de idioma */
 .aviso-idioma { position: fixed; left: 50%; bottom: 16px; transform: translateX(-50%); display: flex; align-items: center; gap: 8px;
   background: var(--surface2); border-radius: 999px; padding: 6px 8px 6px 20px; box-shadow: 0 6px 20px rgba(0,0,0,.25); z-index: 10; }
-.aviso-idioma a { font-weight: 700; white-space: nowrap; }
+.aviso-idioma a { font-weight: 700; white-space: nowrap; color: var(--text); }
 .aviso-idioma button { background: none; border: 0; color: var(--muted); font: inherit; cursor: pointer; min-width: 44px; min-height: 44px; }
 
 /* Calculadora de tiempo de lectura */
