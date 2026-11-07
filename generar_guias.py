@@ -19,7 +19,7 @@ def tiempo(words, wpm):
 
 
 def pagina(p):
-    url = RUTAS[p['clave']][p['lang']]
+    url = p.get('url') or RUTAS[p['clave']][p['lang']]
     home = RUTAS['inicio'][p['lang']]
     ld = {'@context': 'https://schema.org', **p['ld'], 'url': B + url, 'inLanguage': p['lang'],
           'headline': p['h1'], 'description': p['desc']}
@@ -32,7 +32,7 @@ def pagina(p):
 <title>{html.escape(p['title'])}</title>
 <meta name="description" content="{html.escape(p['desc'])}">
 <link rel="canonical" href="{B + url}">
-{alternos(p['clave'])}
+{p['alternos'] if 'alternos' in p else alternos(p['clave'])}
 <link rel="icon" href="/img/favicon-32.png" sizes="32x32">
 <link rel="apple-touch-icon" href="/img/icono-180.png">
 <meta name="theme-color" content="#FDF6E3" media="(prefers-color-scheme: light)">
@@ -59,7 +59,7 @@ def pagina(p):
     <a href="{home}" class="logo">L<span>i</span>nce</a>
     <nav>
       <a href="{home}" class="secundario">Lince</a>
-      {menu_idiomas(p['clave'], p['lang'])}
+      {p['menu'] if 'menu' in p else menu_idiomas(p['clave'], p['lang'])}
     </nav>
   </header>
 {p['cuerpo']}
@@ -77,7 +77,7 @@ def pagina(p):
       <a href="{pie[2][0]}">{pie[2][1]}</a>
       <a href="mailto:lince.revision@gmail.com">{pie[3]}</a>
     </nav>
-    <nav class="pie-idiomas">{otros_idiomas(p['clave'], p['lang'], ' ')}</nav>
+    <nav class="pie-idiomas">{p['otros'] if 'otros' in p else otros_idiomas(p['clave'], p['lang'], ' ')}</nav>
   </footer>
 </main>
 {p.get('script', '')}
@@ -90,10 +90,16 @@ def pagina(p):
 MILES = {'en': ',', 'es': '.', 'pt': '.', 'fr': '\u202f', 'de': '.', 'it': '.'}
 
 
+def enlace_libro(b):
+    import re, unicodedata
+    s = re.sub(r'[^a-z0-9]+', '-', unicodedata.normalize('NFKD', b['t']).encode('ascii', 'ignore').decode().lower()).strip('-')
+    return f"<a href=\"{RUTAS['tiempo'][b['l']]}{s}/\">{html.escape(b['t'])}</a>"
+
+
 def tabla(lang, t):
     filas = sorted((b for b in LIBROS if b['l'] == lang), key=lambda b: b['w'])
     cuerpo = '\n'.join(
-        f'''        <tr data-palabras="{b['w']}"><td>{html.escape(b['t'])}<br><small>{html.escape(b['a'])}</small></td><td>{f"{b['w']:,}".replace(',', MILES[lang])}</td><td class="tiempo">{tiempo(b['w'], 238)}</td></tr>'''
+        f'''        <tr data-palabras="{b['w']}"><td>{enlace_libro(b)}<br><small>{html.escape(b['a'])}</small></td><td>{f"{b['w']:,}".replace(',', MILES[lang])}</td><td class="tiempo">{tiempo(b['w'], 238)}</td></tr>'''
         for b in filas)
     return f'''<table class="tabla-libros">
       <thead><tr><th scope="col">{t[0]}</th><th scope="col">{t[1]}</th><th scope="col">{t[2]}</th></tr></thead>

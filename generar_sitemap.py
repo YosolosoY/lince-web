@@ -12,6 +12,9 @@ for clave in ORDEN:
     alt += f'\n    <xhtml:link rel="alternate" hreflang="x-default" href="{B + r["en"]}"/>'
     for l in LANGS:
         urls.append(f'  <url><loc>{B + r[l]}</loc><lastmod>{HOY}</lastmod>{alt}</url>')
+import json
+for ruta in json.load(open('datos/rutas-libros.json')):
+    urls.append(f'  <url><loc>{B + ruta}</loc><lastmod>2026-11-07</lastmod></url>')
 urls.append(f'  <url><loc>{B}/prensa/</loc><lastmod>2026-11-02</lastmod></url>')
 
 open('sitemap.xml', 'w').write('<?xml version="1.0" encoding="UTF-8"?>\n'
