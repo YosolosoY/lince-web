@@ -2,7 +2,7 @@
 """sitemap.xml con todas las páginas en los seis idiomas y sus alternativas (hreflang). Correr tras cambiar páginas."""
 from idiomas import B, LANGS, RUTAS
 
-HOY = '2026-11-03'
+HOY = '2026-11-07'
 ORDEN = ['inicio', 'prueba', 'tiempo', 'rsvp', 'privacidad', 'borrar']
 
 urls = []

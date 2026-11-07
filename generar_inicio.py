@@ -27,8 +27,8 @@ T = {
   marcas=('Grátis', 'Sem anúncios', 'Nunca vemos o que você lê', 'Funciona offline'),
   video_alt='O Lince lendo um texto uma palavra por vez',
   try_h='Experimente agora, aqui mesmo',
-  try_p='Toque em "Ler" e olhe só para a letra vermelha. Não mexa os olhos: as palavras vêm até você. É assim que se lê no Lince.',
-  demo='Ler assim parece estranho nos primeiros segundos. Depois, quase sem perceber, você para de mexer os olhos e as palavras começam a chegar sozinhas. A letra vermelha fica sempre no mesmo lugar, então seus olhos nunca precisam procurar onde começa cada palavra. Repare também nas pausas: o Lince espera um pouco mais nas vírgulas, mais nos pontos e mais ainda no fim de um parágrafo, para que cada ideia tenha tempo de assentar. Se algo escapar, toque na tela, veja o parágrafo inteiro e continue de onde quiser. Experimente subir a velocidade com a barra. Até onde você vai sem perder o fio?',
+  try_p='Toque em "Ler" e olhe só para a letra marcada. Não mexa os olhos: as palavras vêm até você. É assim que se lê no Lince.',
+  demo='Ler assim parece estranho nos primeiros segundos. Depois, quase sem perceber, você para de mexer os olhos e as palavras começam a chegar sozinhas. A letra marcada fica sempre no mesmo lugar, então seus olhos nunca precisam procurar onde começa cada palavra. Repare também nas pausas: o Lince espera um pouco mais nas vírgulas, mais nos pontos e mais ainda no fim de um parágrafo, para que cada ideia tenha tempo de assentar. Se algo escapar, toque na tela, veja o parágrafo inteiro e continue de onde quiser. Experimente subir a velocidade com a barra. Até onde você vai sem perder o fio?',
   leer='▶ Ler', pausa='❚❚ Pausar', otra='↺ De novo', velocidad='Velocidade', ppm_aria='Palavras por minuto', ppm='ppm',
   pista='No app você vai de 150 a 1.000 palavras por minuto e escolhe a duração das pausas.',
   medir='Medir minha velocidade',
@@ -38,11 +38,11 @@ T = {
          ('Escolha o que ler', 'Um clássico grátis, um dos seus livros, um artigo que você encontrou ou qualquer texto que copiou.'),
          ('Leia e suba de nível', 'Toque para ler, toque para pausar. Ao terminar, uma pergunta rápida confere se você entendeu: o Lince só sugere ir mais rápido quando você realmente acompanha.')),
   b1_h='Uma palavra por vez, sem perder nada',
-  b1_p='A letra guia vermelha fica sempre no mesmo lugar. O Lince faz pausas naturais nas vírgulas, nos pontos e no fim dos parágrafos. Enquanto você lê, a velocidade fica logo abaixo da palavra: aumente ou diminua sem parar.',
+  b1_p='A letra guia marcada fica sempre no mesmo lugar. O Lince faz pausas naturais nas vírgulas, nos pontos e no fim dos parágrafos. Enquanto você lê, a velocidade fica logo abaixo da palavra: aumente ou diminua sem parar.',
   b1_li=('<strong>Pause para ver o parágrafo inteiro</strong> e toque em qualquer palavra para continuar dali.',
          '<strong>Ir para…</strong> capítulos, páginas reais do PDF ou uma frase de que você se lembra.',
          '<strong>Continue sempre de onde parou</strong>, em cada livro.'),
-  alt_leyendo='O Lince lendo: uma só palavra com a letra guia vermelha', alt_pausa='O Lince em pausa: a palavra, o parágrafo inteiro e os controles',
+  alt_leyendo='O Lince lendo: uma só palavra com a letra guia marcada', alt_pausa='O Lince em pausa: a palavra, o parágrafo inteiro e os controles',
   todo_h='Leia o que quiser', todo_p='Você não fica preso a uma loja. O Lince lê o que você já tem e o que você encontra.',
   tarjetas=(('📚', '150 clássicos incluídos', '25 em português e 125 em outros 5 idiomas: Dom Casmurro, Os Maias, O Cortiço, Iracema e muito mais.'),
             ('📄', 'Seus livros', 'Importe arquivos .epub, .pdf e .txt. Os capítulos vêm do índice do livro e os PDFs mantêm suas páginas.'),
@@ -117,8 +117,8 @@ T = {
   marcas=('Gratuit', 'Sans publicité', 'Nous ne voyons jamais ce que vous lisez', 'Fonctionne hors ligne'),
   video_alt='Lince affichant un texte mot à mot',
   try_h='Essayez tout de suite, ici même',
-  try_p='Touchez « Lire » et regardez seulement la lettre rouge. Ne bougez pas les yeux : les mots viennent à vous. Voilà ce que donne la lecture avec Lince.',
-  demo="Lire ainsi paraît étrange pendant les premières secondes. Puis, presque sans s'en rendre compte, on arrête de bouger les yeux et les mots arrivent tout seuls. La lettre rouge reste toujours au même endroit, alors vos yeux n'ont jamais à chercher où commence chaque mot. Remarquez aussi les pauses : Lince attend un peu plus aux virgules, davantage aux points et plus encore à la fin d'un paragraphe, pour que chaque idée ait le temps de s'installer. Si quelque chose vous échappe, touchez l'écran, voyez tout le paragraphe et reprenez où vous voulez. Essayez d'augmenter la vitesse avec le curseur. Jusqu'où pouvez-vous aller sans perdre le fil ?",
+  try_p='Touchez « Lire » et regardez seulement la lettre marquée. Ne bougez pas les yeux : les mots viennent à vous. Voilà ce que donne la lecture avec Lince.',
+  demo="Lire ainsi paraît étrange pendant les premières secondes. Puis, presque sans s'en rendre compte, on arrête de bouger les yeux et les mots arrivent tout seuls. La lettre marquée reste toujours au même endroit, alors vos yeux n'ont jamais à chercher où commence chaque mot. Remarquez aussi les pauses : Lince attend un peu plus aux virgules, davantage aux points et plus encore à la fin d'un paragraphe, pour que chaque idée ait le temps de s'installer. Si quelque chose vous échappe, touchez l'écran, voyez tout le paragraphe et reprenez où vous voulez. Essayez d'augmenter la vitesse avec le curseur. Jusqu'où pouvez-vous aller sans perdre le fil ?",
   leer='▶ Lire', pausa='❚❚ Pause', otra='↺ Encore', velocidad='Vitesse', ppm_aria='Mots par minute', ppm='mots/min',
   pista="Dans l'appli, vous allez de 150 à 1 000 mots par minute et choisissez la durée des pauses.",
   medir='Mesurer ma vitesse',
@@ -128,11 +128,11 @@ T = {
          ('Choisissez quoi lire', "Un classique gratuit, l'un de vos livres, un article trouvé en ligne ou n'importe quel texte copié."),
          ('Lisez et progressez', "Touchez pour lire, touchez pour mettre en pause. À la fin, une petite question vérifie que vous avez compris : Lince ne propose d'accélérer que si vous suivez vraiment.")),
   b1_h='Un mot à la fois, sans rien manquer',
-  b1_p="La lettre guide rouge reste toujours au même endroit. Lince fait des pauses naturelles aux virgules, aux points et en fin de paragraphe. Pendant la lecture, la vitesse reste sous le mot : accélérez ou ralentissez sans vous arrêter.",
+  b1_p="La lettre guide marquée reste toujours au même endroit. Lince fait des pauses naturelles aux virgules, aux points et en fin de paragraphe. Pendant la lecture, la vitesse reste sous le mot : accélérez ou ralentissez sans vous arrêter.",
   b1_li=("<strong>Mettez en pause pour voir tout le paragraphe</strong> et touchez n'importe quel mot pour reprendre à partir de là.",
          '<strong>Aller à…</strong> un chapitre, une vraie page du PDF ou une phrase dont vous vous souvenez.',
          '<strong>Reprenez toujours là où vous vous êtes arrêté</strong>, dans chaque livre.'),
-  alt_leyendo='Lince en lecture : un seul mot avec la lettre guide rouge', alt_pausa='Lince en pause : le mot, tout le paragraphe et les commandes',
+  alt_leyendo='Lince en lecture : un seul mot avec la lettre guide marquée', alt_pausa='Lince en pause : le mot, tout le paragraphe et les commandes',
   todo_h='Lisez tout ce que vous voulez', todo_p="Vous n'êtes lié à aucune librairie. Lince lit ce que vous avez déjà et ce que vous trouvez.",
   tarjetas=(('📚', '150 classiques inclus', '25 en français et 125 dans 5 autres langues : Madame Bovary, Les Trois Mousquetaires, Germinal, Notre-Dame de Paris et bien d’autres.'),
             ('📄', 'Vos livres', 'Importez des fichiers .epub, .pdf et .txt. Les chapitres viennent de la table des matières et les PDF gardent leurs pages.'),
@@ -207,8 +207,8 @@ T = {
   marcas=('Kostenlos', 'Ohne Werbung', 'Wir sehen nie, was du liest', 'Funktioniert offline'),
   video_alt='Lince zeigt einen Text Wort für Wort',
   try_h='Probier es gleich hier aus',
-  try_p='Tippe auf „Lesen“ und schau nur auf den roten Buchstaben. Bewege die Augen nicht: Die Wörter kommen zu dir. So fühlt sich Lesen mit Lince an.',
-  demo='So zu lesen fühlt sich in den ersten Sekunden seltsam an. Dann hörst du fast unbemerkt auf, die Augen zu bewegen, und die Wörter kommen von selbst. Der rote Buchstabe bleibt immer an derselben Stelle, deshalb müssen deine Augen nie suchen, wo ein Wort anfängt. Achte auch auf die Pausen: Lince wartet bei Kommas etwas länger, bei Punkten noch länger und am Ende eines Absatzes am längsten, damit jeder Gedanke Zeit hat anzukommen. Wenn dir etwas entgeht, tippe auf den Bildschirm, sieh dir den ganzen Absatz an und lies weiter, wo du willst. Erhöhe das Tempo mit dem Regler. Wie schnell kannst du lesen, ohne den Faden zu verlieren?',
+  try_p='Tippe auf „Lesen“ und schau nur auf den markierten Buchstaben. Bewege die Augen nicht: Die Wörter kommen zu dir. So fühlt sich Lesen mit Lince an.',
+  demo='So zu lesen fühlt sich in den ersten Sekunden seltsam an. Dann hörst du fast unbemerkt auf, die Augen zu bewegen, und die Wörter kommen von selbst. Der markierte Buchstabe bleibt immer an derselben Stelle, deshalb müssen deine Augen nie suchen, wo ein Wort anfängt. Achte auch auf die Pausen: Lince wartet bei Kommas etwas länger, bei Punkten noch länger und am Ende eines Absatzes am längsten, damit jeder Gedanke Zeit hat anzukommen. Wenn dir etwas entgeht, tippe auf den Bildschirm, sieh dir den ganzen Absatz an und lies weiter, wo du willst. Erhöhe das Tempo mit dem Regler. Wie schnell kannst du lesen, ohne den Faden zu verlieren?',
   leer='▶ Lesen', pausa='❚❚ Pause', otra='↺ Nochmal', velocidad='Tempo', ppm_aria='Wörter pro Minute', ppm='WpM',
   pista='In der App gehst du von 150 bis 1.000 Wörtern pro Minute und wählst, wie lang die Pausen sind.',
   medir='Mein Tempo messen',
@@ -218,11 +218,11 @@ T = {
          ('Wähle, was du liest', 'Einen kostenlosen Klassiker, eines deiner Bücher, einen Artikel, den du gefunden hast, oder jeden kopierten Text.'),
          ('Lies und steig auf', 'Tippen zum Lesen, tippen zum Pausieren. Danach prüft eine kurze Frage, ob du verstanden hast: Lince schlägt nur dann mehr Tempo vor, wenn du wirklich folgst.')),
   b1_h='Ein Wort nach dem anderen, ohne etwas zu verpassen',
-  b1_p='Der rote Leitbuchstabe bleibt immer an derselben Stelle. Lince macht natürliche Pausen bei Kommas, Punkten und am Absatzende. Beim Lesen bleibt das Tempo unter dem Wort: schneller oder langsamer, ohne anzuhalten.',
+  b1_p='Der markierte Leitbuchstabe bleibt immer an derselben Stelle. Lince macht natürliche Pausen bei Kommas, Punkten und am Absatzende. Beim Lesen bleibt das Tempo unter dem Wort: schneller oder langsamer, ohne anzuhalten.',
   b1_li=('<strong>Pausiere, um den ganzen Absatz zu sehen</strong>, und tippe auf ein Wort, um dort weiterzulesen.',
          '<strong>Gehe zu…</strong> Kapiteln, echten PDF-Seiten oder einem Satz, an den du dich erinnerst.',
          '<strong>Lies immer dort weiter, wo du aufgehört hast</strong>, in jedem Buch.'),
-  alt_leyendo='Lince beim Lesen: ein einzelnes Wort mit dem roten Leitbuchstaben', alt_pausa='Lince in der Pause: das Wort, der ganze Absatz und die Steuerung',
+  alt_leyendo='Lince beim Lesen: ein einzelnes Wort mit dem markierten Leitbuchstaben', alt_pausa='Lince in der Pause: das Wort, der ganze Absatz und die Steuerung',
   todo_h='Lies, was du willst', todo_p='Du bist an keinen Shop gebunden. Lince liest, was du schon hast und was du findest.',
   tarjetas=(('📚', '150 Klassiker inklusive', '25 auf Deutsch und 125 in 5 weiteren Sprachen: Die Verwandlung, Effi Briest, Der Schimmelreiter, Werther und mehr.'),
             ('📄', 'Deine Bücher', 'Importiere .epub-, .pdf- und .txt-Dateien. Kapitel kommen aus dem Inhaltsverzeichnis, PDFs behalten ihre Seiten.'),
@@ -297,8 +297,8 @@ T = {
   marcas=('Gratis', 'Senza pubblicità', 'Non vediamo mai cosa leggi', 'Funziona offline'),
   video_alt='Lince che mostra un testo una parola alla volta',
   try_h='Provalo subito, qui',
-  try_p='Tocca "Leggi" e guarda solo la lettera rossa. Non muovere gli occhi: le parole vengono da te. Ecco come si legge con Lince.',
-  demo="Leggere così sembra strano nei primi secondi. Poi, quasi senza accorgertene, smetti di muovere gli occhi e le parole iniziano ad arrivare da sole. La lettera rossa resta sempre nello stesso punto, quindi i tuoi occhi non devono mai cercare dove inizia ogni parola. Fai caso anche alle pause: Lince aspetta un po' di più alle virgole, di più ai punti e ancora di più alla fine di un paragrafo, perché ogni idea abbia il tempo di sedimentare. Se qualcosa ti sfugge, tocca lo schermo, guarda tutto il paragrafo e continua da dove vuoi. Prova ad alzare la velocità con il cursore. Fin dove arrivi senza perdere il filo?",
+  try_p='Tocca "Leggi" e guarda solo la lettera evidenziata. Non muovere gli occhi: le parole vengono da te. Ecco come si legge con Lince.',
+  demo="Leggere così sembra strano nei primi secondi. Poi, quasi senza accorgertene, smetti di muovere gli occhi e le parole iniziano ad arrivare da sole. La lettera evidenziata resta sempre nello stesso punto, quindi i tuoi occhi non devono mai cercare dove inizia ogni parola. Fai caso anche alle pause: Lince aspetta un po' di più alle virgole, di più ai punti e ancora di più alla fine di un paragrafo, perché ogni idea abbia il tempo di sedimentare. Se qualcosa ti sfugge, tocca lo schermo, guarda tutto il paragrafo e continua da dove vuoi. Prova ad alzare la velocità con il cursore. Fin dove arrivi senza perdere il filo?",
   leer='▶ Leggi', pausa='❚❚ Pausa', otra='↺ Ancora', velocidad='Velocità', ppm_aria='Parole al minuto', ppm='ppm',
   pista="Nell'app vai da 150 a 1.000 parole al minuto e scegli quanto durano le pause.",
   medir='Misura la mia velocità',
@@ -308,11 +308,11 @@ T = {
          ('Scegli cosa leggere', 'Un classico gratuito, uno dei tuoi libri, un articolo trovato in rete o qualsiasi testo copiato.'),
          ('Leggi e sali di livello', 'Tocca per leggere, tocca per mettere in pausa. Alla fine, una breve domanda verifica che tu abbia capito: Lince propone di andare più veloce solo quando segui davvero.')),
   b1_h='Una parola alla volta, senza perdere niente',
-  b1_p="La lettera guida rossa resta sempre nello stesso punto. Lince fa pause naturali alle virgole, ai punti e alla fine dei paragrafi. Mentre leggi, la velocità resta sotto la parola: aumentala o diminuiscila senza fermarti.",
+  b1_p="La lettera guida evidenziata resta sempre nello stesso punto. Lince fa pause naturali alle virgole, ai punti e alla fine dei paragrafi. Mentre leggi, la velocità resta sotto la parola: aumentala o diminuiscila senza fermarti.",
   b1_li=('<strong>Metti in pausa per vedere tutto il paragrafo</strong> e tocca una parola qualsiasi per riprendere da lì.',
          '<strong>Vai a…</strong> capitoli, pagine reali del PDF o una frase che ricordi.',
          '<strong>Riprendi sempre da dove eri rimasto</strong>, in ogni libro.'),
-  alt_leyendo='Lince in lettura: una sola parola con la lettera guida rossa', alt_pausa='Lince in pausa: la parola, tutto il paragrafo e i comandi',
+  alt_leyendo='Lince in lettura: una sola parola con la lettera guida evidenziata', alt_pausa='Lince in pausa: la parola, tutto il paragrafo e i comandi',
   todo_h='Leggi quello che vuoi', todo_p='Non sei legato a nessuno store. Lince legge quello che hai già e quello che trovi.',
   tarjetas=(('📚', '150 classici inclusi', '25 in italiano e 125 in altre 5 lingue: I promessi sposi, Il fu Mattia Pascal, I Malavoglia, Pinocchio e molti altri.'),
             ('📄', 'I tuoi libri', 'Importa file .epub, .pdf e .txt. I capitoli arrivano dall’indice del libro e i PDF mantengono le loro pagine.'),
@@ -386,7 +386,7 @@ def lista(items, sangria='        '):
     return '\n'.join(f'{sangria}<li>{i}</li>' for i in items)
 
 
-def captura(lang, nombre, alt, w=540, h=1200):
+def captura(lang, nombre, alt, w=540, h=870):
     return f'<img src="/img/{lang}-{nombre}.webp" alt="{esc(alt)}" width="{w}" height="{h}" loading="lazy">'
 
 
@@ -418,8 +418,8 @@ def portada(lang):
 {alternos('inicio')}
 <link rel="icon" href="/img/favicon-32.png" sizes="32x32">
 <link rel="apple-touch-icon" href="/img/icono-180.png">
-<meta name="theme-color" content="#FDF6E3" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#151515" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B0B0B" media="(prefers-color-scheme: dark)">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Lince">
 <meta property="og:locale" content="{OG_LOCALE[lang]}">
@@ -552,7 +552,7 @@ def portada(lang):
   <section>
     <h2>{t['horiz_h']}</h2>
     <p class="intro">{t['horiz_p']}</p>
-    <div class="ancha">{captura(lang, 'acostado-pausa', t['alt_acostado'], 1200, 540)}</div>
+    <div class="ancha">{captura(lang, 'acostado-pausa', t['alt_acostado'], 1200, 619)}</div>
   </section>
 
   <section class="bloque inverso">
