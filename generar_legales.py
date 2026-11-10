@@ -22,7 +22,9 @@ def pagina(lang, clave, title, desc, cuerpo, pie):
 <link rel="canonical" href="{B + url}">
 {alternos(clave)}
 <meta name="description" content="{desc}">
-<link rel="icon" href="/img/favicon-32.png" sizes="32x32">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/img/favicon-96.png" type="image/png" sizes="96x96">
+<link rel="icon" href="/img/favicon-32.png" type="image/png" sizes="32x32">
 <link rel="stylesheet" href="/estilo.css">
 </head>
 <body>

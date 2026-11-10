@@ -416,7 +416,9 @@ def portada(lang):
 <meta name="description" content="{esc(t['desc'])}">
 <link rel="canonical" href="{B + url}">
 {alternos('inicio')}
-<link rel="icon" href="/img/favicon-32.png" sizes="32x32">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/img/favicon-96.png" type="image/png" sizes="96x96">
+<link rel="icon" href="/img/favicon-32.png" type="image/png" sizes="32x32">
 <link rel="apple-touch-icon" href="/img/icono-180.png">
 <meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0B0B0B" media="(prefers-color-scheme: dark)">
