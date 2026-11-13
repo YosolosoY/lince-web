@@ -91,6 +91,17 @@ def desc_seo(d):
     return d if len(d) <= 160 else d.rsplit('. ', 1)[0] + '.'
 
 
+MAS = dict(en='More reading times', es='Más tiempos de lectura', pt='Mais tempos de leitura', fr='Autres temps de lecture', de='Weitere Lesezeiten', it='Altri tempi di lettura')
+
+
+def parecidos(b, n=5):
+    # mismo idioma: primero otras obras del mismo autor, luego los siguientes de la lista (orden fijo, sin azar)
+    mios = [c for c in LIBROS if c['l'] == b['l'] and c is not b]
+    mismo = [c for c in mios if c['a'] == b['a']]
+    sig = [c for c in LIBROS[LIBROS.index(b) + 1:] + LIBROS[:LIBROS.index(b)] if c['l'] == b['l'] and c not in mismo]
+    return (mismo + sig)[:n]
+
+
 total = 0
 for b in LIBROS:
     l, w, titulo, autor = b['l'], b['w'], b['t'], b['a']
@@ -117,6 +128,8 @@ for b in LIBROS:
     <h2>{x['h2p']}</h2>
     <h3>{e('q1')}</h3><p>{e('a1')}</p>
     <h3>{e('q2')}</h3><p>{e('a2')}</p>
+    <h2>{MAS[l]}</h2>
+    <ul>{''.join(f'<li><a href="{RUTAS["tiempo"][l]}{slug(c["t"])}/">{html.escape(c["t"])}</a></li>' for c in parecidos(b))}</ul>
     <p><a href="{RUTAS['tiempo'][l]}">{x['todos']}</a></p>
   </article>'''
     ld = [LD_LIBRO(titulo, autor, ruta), faq]
