@@ -216,6 +216,7 @@ GUIAS = [
     </ol>
     <h2>Is RSVP good for ADHD or dyslexia?</h2>
     <p>We don't know of solid evidence that it helps, and RSVP is not a treatment. If you want to try it, go at a comfortable pace and keep what works for you.</p>
+    <p>Related: <a href="/skimming-vs-scanning/">Skimming vs scanning: differences and when to use each</a>.</p>
   </article>''',
   cta='Try RSVP on your own books', ctap='Lince is an RSVP speed reader for Android: EPUB, PDF, articles and 150 classics in 6 languages, one word at a time.', boton='Get it on Google Play',
   pie=[('/', 'Lince'), ('/reading-speed-test/', 'Speed test'), ('/how-long-to-read/', 'Reading time'), 'Contact'],

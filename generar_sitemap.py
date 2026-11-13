@@ -15,6 +15,7 @@ for clave in ORDEN:
 import json
 for ruta in json.load(open('datos/rutas-libros.json')):
     urls.append(f'  <url><loc>{B + ruta}</loc><lastmod>2026-11-07</lastmod></url>')
+urls.append(f'  <url><loc>{B}/skimming-vs-scanning/</loc><lastmod>2026-11-13</lastmod></url>')
 urls.append(f'  <url><loc>{B}/prensa/</loc><lastmod>2026-11-02</lastmod></url>')
 
 open('sitemap.xml', 'w').write('<?xml version="1.0" encoding="UTF-8"?>\n'
