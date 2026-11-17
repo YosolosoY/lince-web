@@ -116,7 +116,7 @@ section > .intro { color: var(--muted); font-size: 18px; max-width: 720px; margi
 /* Preguntas */
 details { background: var(--surface); border-radius: 0; padding: 16px 20px; margin: 10px 0; }
 summary { cursor: pointer; font-weight: 700; font-size: 18px; }
-details p { color: var(--muted); margin: 10px 0 0; }
+details p { color: var(--muted); margin: 10px 0 0; max-width: 70ch; }
 
 .cierre { text-align: center; background: var(--surface); border-radius: 0; padding: 44px 20px; }
 .cierre h2 { margin-top: 0; }
@@ -131,6 +131,9 @@ details p { color: var(--muted); margin: 10px 0 0; }
   .telefono { max-width: 260px; }
   section { margin: 56px 0; }
   .barra nav a.secundario { display: none; }
+  .barra nav a, .pie nav a, .pie-idiomas a { display: inline-block; padding: 11px 4px; }
+  table td a { display: inline-block; padding: 13px 0 6px; }
+  details > summary { padding: 8px 0; }
 }
 
 /* Prueba de velocidad */
